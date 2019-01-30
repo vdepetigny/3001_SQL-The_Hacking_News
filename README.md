@@ -24,9 +24,9 @@ Pour info, il y a quatre modèles User, Link, Comment et Subcomment :
 * Subcomment a un attribut (content) et est associé à User et Comment.
 
 Comment runner notre magnifique application :
-1/ Clone the github : git clone https://github.com/vdepetigny/3001_SQL-The_Hacking_News.git
-2/ Ajoute les gems : fait un Bundle Install
-3/ Lance le fichier seed : rails db:seed
+1/ Clone the github : git clone https://github.com/vdepetigny/3001_SQL-The_Hacking_News.git  
+2/ Ajoute les gems : fait un Bundle Install  
+3/ Lance le fichier seed : rails db:seed  
 4/ Amuse-toi avec la console ! :smile:  
 
 
@@ -48,4 +48,3 @@ Alexis Janin
 
 Bisous!
 
-![alt text](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeVlXLF4lu6tJ4F5CrzdYW16hM0srkHAeO_yjLXQIBybwCuUwKbg)
