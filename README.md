@@ -24,6 +24,7 @@ Pour info, il y a quatre modèles User, Link, Comment et Subcomment :
 * Subcomment a un attribut (content) et est associé à User et Comment.
 
 Comment runner notre magnifique application :  
+
 1/ Clone the github : git clone https://github.com/vdepetigny/3001_SQL-The_Hacking_News.git  
 
 ```
