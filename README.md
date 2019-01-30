@@ -1,24 +1,23 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Une collaboration de :
+- Viviane de Pétigny
+- Gregoria Ndongozy
+- Mélanie Nguon
+- Bastien Hiel
+- Alexis Janin
 
-Things you may want to cover:
+Ce que fait ce programme : 
+1/ Les utilisateurs peuvent publier des liens
+2/ Les utilisateurs peuvent commenter les liens
+3/ Les utilisateurs peuvent commenter les commentaires (sur 1 seul niveau)
 
-* Ruby version
+Comment runner notre magnifique application :
+1/ Clone the github : git clone https://github.com/vdepetigny/3001_SQL-The_Hacking_News.git
+2/ Ajoute les gems : fait un Bundle Install
+3/ Lance le fichier seed : rails db:seed
+4/ Amuse-toi avec la console !
 
-* System dependencies
+Bisou,
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+L'équipe ---->
