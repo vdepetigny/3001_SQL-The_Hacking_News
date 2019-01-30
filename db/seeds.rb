@@ -9,25 +9,23 @@
 
 require 'faker'
 
-#User.destroy_all
-#Category.destroy_all
-#Article.destroy_all
-#Comment.destroy_all
-#Like.destroy_all
+User.destroy_all
+Link.destroy_all
+Comment.destroy_all
+Subcomment.destroy_all
 
-#ActiveRecord::Base.connection.reset_pk_sequence!('User')
-#10.times do
-#  user = User.create(first_name: Faker::Name.first_name,last_name: Faker::Name.last_name, email: Faker::Internet.email)
-#end
+10.times do
+  user = User.create(first_name: Faker::Name.first_name,last_name: Faker::Name.last_name, email: Faker::Internet.email)
+end
 
-#15.times do
-#  link = Link.create(url: Faker::Internet.url, user: User.find(rand(1..10)))
-#end
+15.times do
+  link = Link.create(url: Faker::Internet.url, user: User.all.sample)
+end
 
-#30.times do
-#  comment = Comment.create(content: Faker::Lorem.sentence, user: User.find(rand(1..10)), link: Link.find(rand(1..15)))
-#end
+30.times do
+  comment = Comment.create(content: Faker::Lorem.sentence, user: User.all.sample, link: Link.all.sample)
+end
 
 60.times do
-  subcomment = Subcomment.create(content: Faker::Lorem.sentence, user: User.find(rand(1..10)), comment: Comment.find(rand(1..30)))
+  subcomment = Subcomment.create(content: Faker::Lorem.sentence, user: User.all.sample, comment: Comment.all.sample)
 end
