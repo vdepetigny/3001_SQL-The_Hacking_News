@@ -25,10 +25,18 @@ Pour info, il y a quatre modèles User, Link, Comment et Subcomment :
 
 Comment runner notre magnifique application :  
 1/ Clone the github : git clone https://github.com/vdepetigny/3001_SQL-The_Hacking_News.git  
-2/ Ajoute les gems : fait un Bundle Install  
-3/ Lance le fichier seed : rails db:seed  
-4/ Amuse-toi avec la console ! :smile:  
+2/ Ajoute les gems : fais un Bundle Install  
+3/ Lance le fichier seed : rails db:migrate  
+4/ Lance le fichier seed : rails db:seed  
+5/ Amuse-toi avec la console ! :smile:  
 
+```
+git clone https://github.com/vdepetigny/3001_SQL-The_Hacking_News.git
+```
+
+```
+bundle install
+```
 
 ```
 rails db:migrate
@@ -47,4 +55,6 @@ Mélanie Nguon
 Alexis Janin  
 
 Bisous!
+
+![alt text](https://idonsabi.com/wp-content/uploads/2018/12/breaking-graphic-deamstime.jpg)
 
