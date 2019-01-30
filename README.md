@@ -12,10 +12,10 @@ Les utilisateurs peuvent poster des liens sur Hacking News. Les autres utilisate
 
 ## How does it work ?
 
-Ce que fait ce programme : 
-1/ Les utilisateurs peuvent publier des liens
-2/ Les utilisateurs peuvent commenter les liens
-3/ Les utilisateurs peuvent commenter les commentaires (sur 1 seul niveau)
+Ce que fait ce programme :   
+1/ Les utilisateurs peuvent publier des liens  
+2/ Les utilisateurs peuvent commenter les liens  
+3/ Les utilisateurs peuvent commenter les commentaires (sur 1 seul niveau)  
 
 Pour info, il y a quatre modèles User, Link, Comment et Subcomment : 
 * User a trois attributs (prénom, nom et email),
@@ -23,7 +23,7 @@ Pour info, il y a quatre modèles User, Link, Comment et Subcomment :
 * Comment a un attribut (content) et est associé à User et Link,
 * Subcomment a un attribut (content) et est associé à User et Comment.
 
-Comment runner notre magnifique application :
+Comment runner notre magnifique application :  
 1/ Clone the github : git clone https://github.com/vdepetigny/3001_SQL-The_Hacking_News.git  
 2/ Ajoute les gems : fait un Bundle Install  
 3/ Lance le fichier seed : rails db:seed  
